@@ -35,3 +35,9 @@ btnDisagree.addEventListener("mouseenter", () => {
   btnDisagree.style.top = random(0, window.innerHeight) + "px";
   btnDisagree.style.right = random(0, window.innerWidth) + "px";
 });
+
+btnDisagree.addEventListener("click", () => {
+  btnDisagree.style.position = "absolute";
+  btnDisagree.style.top = random(0, window.innerHeight) + "px";
+  btnDisagree.style.right = random(0, window.innerWidth) + "px";
+});
